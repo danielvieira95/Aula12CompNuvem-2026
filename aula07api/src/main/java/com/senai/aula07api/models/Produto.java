@@ -10,12 +10,18 @@ public class Produto {
 
     // Construtor
 
+    public Produto() {
+    }
+
     public  Produto(int id, String nome, double preco){
         this.id = id;
         this.nome = nome;
         this.preco = preco;
     }
 
+    public void setId(int id){
+        this.id = id;
+    }
 
     // Getters para pegar o id
     public  int getId(){
